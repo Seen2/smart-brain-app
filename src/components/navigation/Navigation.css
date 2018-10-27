@@ -1,0 +1,15 @@
+.nav{
+	text-align:right;
+	padding:2px;
+	margin:10px;
+
+}
+.right {
+	position: absolute;
+	right: 0px;
+	width: 80px;
+	padding: 10px;
+}
+.nav:hover{
+	cursor:pointer;
+}
