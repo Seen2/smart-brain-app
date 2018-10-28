@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './ImageForm.css';
-class ImageForm extends Component {
-  render() {
+const ImageForm =({onInputChange,onSubmit})=>{
     return (
 			<div className="form center" >
-				<input type="text" />{' '}
-				<input type="submit" value="Detect" />
+				<input onChange={onInputChange} type="text" />{' '}
+				<button onClick={onSubmit}>Detect</button>
       </div>
     );
-  }
 }
 
 export default ImageForm;
