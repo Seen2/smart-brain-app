@@ -5,9 +5,8 @@ export default class Rank extends React.Component{
 		const rank=5;
 		return(
 			<div>
-				<p><h2>{`userName you Rank is`}</h2>
-					<h1>{rank}</h1>
-				</p>
+				<h2>{`userName you Rank is:`}</h2>
+				<h1>{rank}</h1>
 			</div>
 		);
 	}
